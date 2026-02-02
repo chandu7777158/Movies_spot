@@ -1,0 +1,8 @@
+/* Remove default Vite centering for better responsive layouts */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block; /* Ensures content flows normally below the navbar */
+}
+

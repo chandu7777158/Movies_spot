@@ -1,0 +1,11 @@
+/* Remove default Vite centering for better responsive layouts */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}

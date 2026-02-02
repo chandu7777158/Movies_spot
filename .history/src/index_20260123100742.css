@@ -1,0 +1,27 @@
+/* Global Reset and Fix for Fixed Navbar */
+body {
+    background: #f5f7fa;
+    min-height: 10vh;
+    margin: 0;
+    /* This padding prevents content from hiding behind the navbar */
+    padding-top: 70px; 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Custom Highlight Effect for Nav Links */
+.nav-highlight {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-highlight:hover {
+    color: #ffe066 !important;
+    transform: translateY(-2px);
+}
+
+/* Make search bar look modern */
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    outline: none;
+}

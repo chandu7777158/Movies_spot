@@ -1,0 +1,74 @@
+/* Global Reset and Fix for Fixed Navbar */
+body {
+    background: whitesmoke;
+    min-height: 100vh;
+    margin: 0;
+    /* This padding prevents content from hiding behind the navbar */
+    padding-top: 55px; 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Custom Highlight Effect for Nav Links */
+.navbar-nav .nav-link {
+    padding: 7px !important;
+}
+
+.nav-highlight {
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.nav-highlight:hover {
+    color:#f5e15d !important;
+
+}
+
+/* Make search bar look modern */
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+
+/* Fix for the Logo - making it prominent but low padding */
+.nav-logo-img {
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0px 0;
+}
+
+/* Tighten up the Nav Links for a cleaner look */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+/* Ensure the Mobile Toggler and Search Icon align perfectly */
+.navbar-toggler:focus {
+    box-shadow: none; /* Removes the ugly blue border on click */
+}
+
+/* Ensure posters look like real movie posters */
+.movie-card img {
+    /* Standard movie poster ratio is 2:3 */
+   width
+    max-width: 100%;
+    
+    transition: transform 0.3s ease;
+}
+
+
+
+.movie-card {
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px !important;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+.movie-card:hover {
+    transform: scale(1.03);
+    box-shadow:  0 0 5px 5px  rgba(0, 0, 0, 0.10) !important;
+}
