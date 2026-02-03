@@ -6,7 +6,7 @@ import MoviePage from './pages/MoviePage';
 function App() {
   return (
     // Links in Navbar component and Routes also, Links and Routes must present in BrowserRouter
-    //The Link to="string" for browser url change, and path="string" must match then component renders correctly 
+    //The Link to="strings" for browser url change, and path="string" must match then component renders correctly 
     <BrowserRouter>
       <Navbar />
       <main className="mt-5 pt-3">

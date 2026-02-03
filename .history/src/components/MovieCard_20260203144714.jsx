@@ -10,7 +10,7 @@ export default function MovieCard({ movie }) {
         : "https://fireteller.com.au/wp-content/uploads/2020/09/Poster_Not_Available2.jpg";
 
     return (
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-4">
             <div className="card h-100 border-0 shadow-sm movie-card">
                 <img 
                     src={poster} 
